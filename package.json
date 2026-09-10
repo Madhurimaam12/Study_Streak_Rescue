@@ -1,0 +1,16 @@
+{
+  "name": "study-streak-rescue-monorepo",
+  "version": "1.0.0",
+  "description": "Study Streak Rescue - MERN Stack Application",
+  "scripts": {
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": ["mern", "study-streak-rescue", "react", "express", "mongodb", "tailwind"],
+  "author": "",
+  "license": "ISC"
+}
